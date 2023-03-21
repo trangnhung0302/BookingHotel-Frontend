@@ -10,7 +10,7 @@ export default {
       return template;
     },
   
-    // validationエラーメッセージ
+    // validation error message
     1111: 'Please enter {attr}',
     1112: 'Please choose {attr}',
     1113: 'Please add {attr}',
@@ -23,17 +23,17 @@ export default {
   
     1131: 'Please enter {attr} with {min} or more',
     1132: 'Please enter {attr} within {max}.',
-    1133: '{attr}は{min}以上{max}以下で入力してください。',
-    1134: '{attr}は{min} ～ {max}で入力してください。',
-    1135: '{attr}は{max}より過去の日付で入力してください。',
+    1133: 'Please enter {attr} between {min} and {max}.',
+    1134: 'Please enter {min} to {max} for {attr}.',
+    1135: 'Please enter {attr} with a date earlier than {max}.',
   
-    1141: '{attr}は正しい形式で入力してください。',
-    1142: '{attr}は英文字、数字、記号をそれぞれ１文字以上含んでください。',
-    1143: '{attr}が一致していません。',
-    1144: '{attr}に使用不可能な文字が含まれています。',
-    1145: '{attr}は半角英数字、アンダーライン(_)、ピリオド(.)のみで入力してください。',
+    1141: 'Please enter {attr} in the correct format.',
+    1142: '{attr} must contain at least one letter, number, and symbol.',
+    1143: '{attr} does not match.',
+    1144: '{attr} contains invalid characters.',
+    1145: 'Enter {attr} using only half-width alphanumeric characters, underscores (_), and periods (.).',
   
-    1151: '{attr}は半角数字で入力してください。',
+    1151: 'Please enter {attr} in single-byte numbers.',
     1152: '{attr}は半角英字で入力してください。',
     1153: '{attr}は半角英数字で入力してください。',
     1154: '{attr}は半角英数字記号で入力してください。',

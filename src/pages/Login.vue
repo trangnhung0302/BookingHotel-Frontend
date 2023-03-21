@@ -1,9 +1,10 @@
 <template>
-  <div class="page-header clear-filter login-container-page" filter-color="orange">
+  <div class="page-header clear-filter login-container-page" filter-color="">
     <div
       class="page-header-image"
-      style="background-image: url('img/login.jpg')"
-    ></div>
+      style="background-image: url('img/loginn.jpg');"
+    >
+    </div>
     <div class="content">
       <div class="container">
         <div class="col-md-5 ml-auto mr-auto">
@@ -26,7 +27,7 @@
               type="password"
               class="no-border input-lg"
               addon-left-icon="now-ui-icons text_caps-small"
-              placeholder="password"
+              placeholder="Password"
               :errors="errors['password']"
             >
             </fg-input>
@@ -77,6 +78,8 @@ export default {
   methods: {
     onSubmit() {
       this.validate();
+      console.log(this.errors);
+      console.log(this.errors['password']);
       if (Object.keys(this.errors).length) return;
 
       console.log(this.username);
@@ -93,7 +96,6 @@ export default {
       this.errors = validator.errors;
     }
   },
-
 };
 </script>
 <style scoped>

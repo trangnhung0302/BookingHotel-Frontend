@@ -8,17 +8,17 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
+            <a href="">
+              LTWEB8 HOTEL
             </a>
           </li>
           <li>
-            <a href="https:///presentation.creative-tim.com">
+            <a href="">
               About Us
             </a>
           </li>
           <li>
-            <a href="https:///blog.creative-tim.com">
+            <a href="">
               Blog
             </a>
           </li>
@@ -26,16 +26,12 @@
       </nav>
       <div class="copyright">
         &copy; {{ year }}, Designed by
-        <a href="https:///www.invisionapp.com" target="_blank" rel="noopener"
-          >Invision</a
-        >. Coded by
-        <a href="https://binarcode.com" target="_blank" rel="noopener"
-          >BinarCode</a
-        >
+        <a href="" target="_blank" rel="noopener">ABC</a>
+        . Coded by
+        <a href="" target="_blank" rel="noopener">ABC</a>
         and
-        <a href="https://www.creative-tim.com" target="_blank" rel="noopener"
-          >Creative Tim</a
-        >.
+        <a href="" target="_blank" rel="noopener">ABC</a>
+        .
       </div>
     </div>
   </footer>
